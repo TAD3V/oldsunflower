@@ -3,7 +3,7 @@ html, body {
       padding: 0;
       width: 100%;
       height: 100vh;
-      font-family: Helvetica;
+      font-family: Verdana,Geneva,sans-serif; 
 }
 
 .left-col, .right-col {
@@ -13,7 +13,7 @@ html, body {
 }
 
 .left-col {
-      background: #d45b48;
+      background: #b80F0A;
 }
 
 .right-col {
@@ -24,7 +24,7 @@ html, body {
       position: absolute;
       width: 100%;
       height: 50vh;
-      background: #4f4538;
+      background: #262626;
       opacity: 0;
       animation: appear-text 0.0001s linear forwards;
       animation-delay: 3s;
@@ -55,7 +55,6 @@ html, body {
 }
 
 .logo {
-      font-family: Poppins;
       color: #fff;
       position: fixed;
       margin: 1.4em;
@@ -66,7 +65,6 @@ html, body {
 .year {
       position: absolute;
       color: #000;
-      font-family: Poppins;
       bottom: 8%;
       font-weight: bolder;
       transform: rotate(-90deg);
@@ -76,7 +74,6 @@ html, body {
 .buy {
       color: #f4c8ad;
       text-transform: uppercase;
-      font-family: Poppins;
       text-decoration: underline;
       position: absolute;
       right: 0%;
@@ -105,7 +102,6 @@ html, body {
       left: 33%;
       transform: translate(-50%, -50%);
       color: #cdbba5;
-      font-family: Poppins;
       text-transform: uppercase;
       letter-spacing: 4px;
 }
@@ -140,13 +136,11 @@ html, body {
 .about h1 {
       font-weight: bolder;
       color: #6f6457;
-      font-family: Poppins;
       text-transform: uppercase;
 }
 
 .about p {
       color: #bcac98;
-      font-family: Poppins;
       text-transform: uppercase;
       letter-spacing: 4px;
       font-size: 10px;
@@ -176,6 +170,7 @@ html, body {
       display: inline-block;
       color: #bcac98;
       padding-right: 10px;
+      padding-top: 10px;
 }
 
 .next {
@@ -186,10 +181,9 @@ html, body {
 
 .data2 {
       position: absolute;
-      top: 12%;
-      left: 28%;
+      top: 5%;
+      left: 5%;
       color: #cdbba5;
-      font-family: Poppins;
       text-transform: uppercase;
       letter-spacing: 4px;
 }
@@ -201,7 +195,6 @@ html, body {
       font-size: 15px;
       color: #f4c8ad;
       text-transform: uppercase;
-      font-family: Poppins;
       text-decoration: underline;
 }
 
