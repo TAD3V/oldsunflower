@@ -72,7 +72,7 @@ html, body {
 }
 
 .buy {
-      color: #f4c8ad;
+      color: #fff;
       text-transform: uppercase;
       text-decoration: underline;
       position: absolute;
@@ -101,7 +101,7 @@ html, body {
       top: 36%;
       left: 33%;
       transform: translate(-50%, -50%);
-      color: #cdbba5;
+      color: #fff;
       text-transform: uppercase;
       letter-spacing: 4px;
 }
@@ -135,12 +135,12 @@ html, body {
 
 .about h1 {
       font-weight: bolder;
-      color: #6f6457;
+      color: #fff;
       text-transform: uppercase;
 }
 
 .about p {
-      color: #bcac98;
+      color: #fff;
       text-transform: uppercase;
       letter-spacing: 4px;
       font-size: 10px;
@@ -156,7 +156,7 @@ html, body {
 }
 
 .media p {
-      color: #6f6457;
+      color: #fff;
       margin-bottom: 0;
 }
 
@@ -168,7 +168,7 @@ html, body {
 
 .media ul li {
       display: inline-block;
-      color: #bcac98;
+      color: #fff;
       padding-right: 10px;
       padding-top: 10px;
 }
@@ -183,7 +183,7 @@ html, body {
       position: absolute;
       top: 5%;
       left: 5%;
-      color: #cdbba5;
+      color: #fff;
       text-transform: uppercase;
       letter-spacing: 4px;
 }
@@ -193,7 +193,7 @@ html, body {
       top: 80%;
       left: 10%;
       font-size: 15px;
-      color: #f4c8ad;
+      color: #fff;
       text-transform: uppercase;
       text-decoration: underline;
 }
