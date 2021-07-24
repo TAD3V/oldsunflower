@@ -18,6 +18,7 @@ html, body {
 
 .right-col {
       left: 50%;
+      z-index: 5;
 }
 
 .upper {
@@ -28,6 +29,7 @@ html, body {
       opacity: 0;
       animation: appear-text 0.0001s linear forwards;
       animation-delay: 3s;
+      z-index: 10;
 }
 
 .bottom {
@@ -40,6 +42,7 @@ html, body {
       opacity: 0;
       animation: appear-text 0.0001s linear forwards;
       animation-delay: 4.2s;
+      z-index: 10;
 }
 
 @media(max-width: 900px) {
@@ -131,6 +134,12 @@ html, body {
       top: 40%;
       left: 26%;
       transform: translate(-50%, -50%);
+      z-index: 15;
+}
+
+.about a {
+      text-decoration: none;
+      color: inherit;
 }
 
 .about h1 {
@@ -153,6 +162,11 @@ html, body {
 
 .media {
       margin-top: 40px;
+}
+
+.media a {
+      text-decoration: none;
+      color: inherit;
 }
 
 .media p {
@@ -186,6 +200,7 @@ html, body {
       color: #fff;
       text-transform: uppercase;
       letter-spacing: 4px;
+      z-index: 15;
 }
 
 .more {
